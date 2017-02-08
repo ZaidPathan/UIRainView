@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIRainView_Example' do
+  pod 'UIRainView', :path => '../'
+
+  target 'UIRainView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

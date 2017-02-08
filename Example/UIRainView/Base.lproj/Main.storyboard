@@ -68,9 +68,6 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="rainString" value="💧🎊🎉❤️💝💜💙💚💛🍰"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="raindropFallInterval">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rainFallInterval">
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>

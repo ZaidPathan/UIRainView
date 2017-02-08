@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/UIRainView.svg?style=flat)](http://cocoapods.org/pods/UIRainView)
 [![Platform](https://img.shields.io/cocoapods/p/UIRainView.svg?style=flat)](http://cocoapods.org/pods/UIRainView)
 
-![UIRainView](https://github.com/ZaidPathan/UIRainView/blob/master/GIF/UIRainView.gif)
+![UIRainViewLogo](https://github.com/ZaidPathan/UIRainView/blob/master/Images/UIRainView_GitHubLogo.png)
+
+## Demo
+
+![UIRainView](https://github.com/ZaidPathan/UIRainView/blob/master/Images/UIRainView.gif)
 
 ## Example
 
@@ -24,7 +28,7 @@ pod "UIRainView"
 
 ## Author
 
-zaidSA, zaid.pathan@solutionanalysts.com
+ZaidPathan , zaid.pathan@solutionanalysts.com
 
 ## License
 

@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/UIRainView.svg?style=flat)](http://cocoapods.org/pods/UIRainView)
 [![Platform](https://img.shields.io/cocoapods/p/UIRainView.svg?style=flat)](http://cocoapods.org/pods/UIRainView)
 
+![UIRainView](https://github.com/ZaidPathan/UIRainView/blob/master/GIF/UIRainView.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

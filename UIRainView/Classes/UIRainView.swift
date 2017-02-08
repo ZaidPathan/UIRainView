@@ -13,7 +13,7 @@ import UIKit
     @IBInspectable open var rainString:String = "💧"
     
     //Default = 2
-    @IBInspectable open var rainFallInterval:Double = 2
+    @IBInspectable open var rainFallInterval:Double = 5
     
     private var rainTimer:Timer?
     

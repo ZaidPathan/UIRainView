@@ -19,12 +19,63 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### 1. CocoaPods
+
 UIRainView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "UIRainView"
 ```
+
+### 2. Manual
+
+Add `UIRainView.swift` file into your project.
+
+## Usage
+
+### 1. Import UIRainView in any class you want to use it.
+
+    import UIRainView
+
+### 2.1. Add using XIB or UIStoryboard
+
+- Add UIView to your view.
+- Give class name `UIRainView` to that UIView in Identity Inspactor.
+- Go to attribute inspactor and give Rain String value (Default is 💧) and Rain fall interval (Default is 5).
+- Connect IBOutlet of `UIRainView`
+- Start rain by calling : `rainView.rain()`
+- Stop rain by calling : `rainView.drizzle()`
+
+### 2.2. Add direcly into the code.
+
+```swift
+import UIKit
+import UIRainView
+
+class ViewController: UIViewController {
+
+    var rainView:UIRainView?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        rainView = UIRainView()
+        rainView?.frame = view.frame
+        view.addSubview(rainView!)
+
+        rainView?.rainString = "💧🎊🎉❤️💝💜💙💚💛🍰"
+        rainView?.rainFallInterval = 7
+        rainView?.rain()   //Start raining
+    }
+
+}
+```
+
+    Use `rainView?.drizzle()` to stop the rain.
+
+## Contribution
+
+Feel free to raise issue and PR accepted to imrove this library.
 
 ## Author
 

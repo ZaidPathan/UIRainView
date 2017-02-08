@@ -69,7 +69,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="rainString" value="💧🎊🎉❤️💝💜💙💚💛🍰"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rainFallInterval">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>

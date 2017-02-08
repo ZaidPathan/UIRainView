@@ -1,0 +1,6 @@
+framework module UIRainView {
+  umbrella header "UIRainView-umbrella.h"
+
+  export *
+  module * { export * }
+}

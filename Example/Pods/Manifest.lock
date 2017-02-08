@@ -1,0 +1,16 @@
+PODS:
+  - UIRainView (0.1.0)
+
+DEPENDENCIES:
+  - UIRainView (from `../`)
+
+EXTERNAL SOURCES:
+  UIRainView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIRainView: 3ebd5232a97d117ce44d647073750eeecddb31d3
+
+PODFILE CHECKSUM: b71f3879d7b0583f22235e21a0ecd442f94dbb3c
+
+COCOAPODS: 1.2.0

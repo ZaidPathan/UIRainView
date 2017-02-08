@@ -1,0 +1,22 @@
+{
+  "name": "UIRainView",
+  "version": "0.1.0",
+  "summary": "A short description of UIRainView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zaidSA/UIRainView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zaidSA": "zaid.pathan@solutionanalysts.com"
+  },
+  "source": {
+    "git": "https://github.com/zaidSA/UIRainView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UIRainView/Classes/**/*"
+}

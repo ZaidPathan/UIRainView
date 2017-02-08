@@ -1,0 +1,6 @@
+framework module Pods_UIRainView_Example {
+  umbrella header "Pods-UIRainView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

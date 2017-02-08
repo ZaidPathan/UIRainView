@@ -31,7 +31,7 @@
 		0C5D60350B243008BFDD2E24 /* Pods_UIRainView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIRainView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB1E3EC0FB8AAFC3EDFC4D9 /* Pods-UIRainView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIRainView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIRainView_Tests/Pods-UIRainView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B8183047A9AC7103ADFFA42 /* Pods-UIRainView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIRainView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIRainView_Tests/Pods-UIRainView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2FCF5B8BFA69D6A47BADF382 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2FCF5B8BFA69D6A47BADF382 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34374DCBFE3FAA7844EB65D5 /* Pods-UIRainView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIRainView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIRainView_Example/Pods-UIRainView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIRainView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIRainView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		93BE4655807FBDA8767484AC /* Pods_UIRainView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIRainView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7EF88EF4DCA001B057020F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF7EF88EF4DCA001B057020F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFDC49DB31F24143BF5DA8D1 /* Pods-UIRainView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIRainView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIRainView_Example/Pods-UIRainView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2122D5B813E3A4A1069DB9F /* UIRainView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIRainView.podspec; path = ../UIRainView.podspec; sourceTree = "<group>"; };
+		E2122D5B813E3A4A1069DB9F /* UIRainView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIRainView.podspec; path = ../UIRainView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

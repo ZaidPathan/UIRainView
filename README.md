@@ -65,15 +65,16 @@ class ViewController: UIViewController {
 
         rainView?.rainString = "💧🎊🎉❤️💝💜💙💚💛🍰"
         rainView?.rainFallInterval = 7
-        rainView?.rain()   //**Start** raining
+        rainView?.rain()   //Start raining
     }
 
 }
 ```
 To **Stop** raining try following,
-    ```swift
+
+```swift
     rainView?.drizzle()
-    ```
+```
 
 ## Contribution
 

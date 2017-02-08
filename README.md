@@ -44,8 +44,8 @@ Add `UIRainView.swift` file into your project.
 - Give class name `UIRainView` to that UIView in Identity Inspactor.
 - Go to attribute inspactor and give Rain String value (Default is 💧) and Rain fall interval (Default is 5).
 - Connect IBOutlet of `UIRainView`
-- Start rain by calling : `rainView.rain()`
-- Stop rain by calling : `rainView.drizzle()`
+- **Start** rain by calling : `rainView?.rain()`
+- **Stop** rain by calling : `rainView?.drizzle()`
 
 ### 2.2. Add direcly into the code.
 
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
 To **Stop** raining try following,
 
 ```swift
-    rainView?.drizzle()
+rainView?.drizzle()
 ```
 
 ## Contribution

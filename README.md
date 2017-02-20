@@ -9,7 +9,7 @@
 
 ## Demo
 
-![UIRainView](https://github.com/ZaidPathan/UIRainView/blob/master/Images/UIRainView.gif)
+![alt UIRainView](https://github.com/ZaidPathan/UIRainView/blob/master/Images/UIRainView.gif)
 
 ## Example
 
